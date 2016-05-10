@@ -1,0 +1,42 @@
+pro
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.reveal section img {
+  background: none;
+  box-shadow: none;
+  border:none;
+}
+
+.highlight {
+  background: #FFE496;
+}
+
+.reveal div.fragment.float-right {
+    opacity: 1;
+    visibility: visible;
+}
+.reveal div.fragment.float-right.visible {
+    -ms-transform: translate(343px,0); /* IE 9 */
+    -webkit-transform: translate(343px,0); /* Safari */
+    transform: translate(343px,0);
+}
+
+.reveal div.onramp.fragment {
+    font-size:50pt;
+    margin:90px 50px 0 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+.reveal div.onramp.fragment.visible {
+    -ms-transform: rotate(-40deg); /* IE 9 */
+    -webkit-transform: rotate(-40deg); /* Safari */
+    transform: rotate(-40deg);
+    text-decoration: underline;
+        font-size:80pt;
+            margin:90px 0 0 0;
+
+}
